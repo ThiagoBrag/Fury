@@ -1,0 +1,932 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(119, 10, 141);
+    text-decoration: unset;
+}
+
+a:hover {
+    color: rgb(240, 70, 240);
+}
+
+body {
+    margin: unset;
+}
+
+.barra-topo {
+    width: 100%;
+    height: 30px;
+}
+
+.imagem-barra {
+    width: 100%;
+    height: 35px;
+}
+
+.barra-roxa {
+    padding: 60px 0;
+    width: 100%;
+    background: linear-gradient(to right, rgb(14, 13, 13), rgb(81, 0, 128), rgb(119, 10, 141), rgb(81, 0, 128), rgb(14, 13, 13));;
+}
+
+.tudonabarraroxa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.imagem-logo {
+    height: 100px;
+}
+
+.barra-pesquisa {
+    float: left;
+    width: 424px;
+    position: relative;
+    padding: 15;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: -4px;
+}
+
+#pesquisar {
+    height: 40px;
+    width: 100%;
+    -webkit-appearance: none;
+    outline: transparent;
+    vertical-align: middle;
+    z-index: 6;
+    border-radius: 20px;
+    box-shadow: none;
+    transition: 0.5s !important;
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 15px;
+    border-color: black;
+    border: 5px;
+}
+
+.lupaa{
+    color: rgb(119, 10, 141)!important;
+    font-size: 30px!important;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 0px;
+    background-color: white;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.acessar-conta {
+    position: relative;
+    cursor:default;
+    float: left;
+    margin-right: 15px;
+    margin-top: 17px;
+}
+
+.acessar-conta:hover {
+    cursor: pointer;
+}
+
+.perfil {
+    color: rgb(0, 0, 0);
+    font-size: 40px!important;
+    margin-top: -20px;
+    float: left;
+    margin-left: 20px!important;
+    align-items: center;
+}
+
+.texto-conta {
+    float: left;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.acessar {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin-top: -17px;
+    margin-left: 20px;
+}
+
+.minha-conta {
+    position: relative;
+    padding-left: 32px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.carrinho-compras {
+    position: relative;
+    font-size: 34px;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 72px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.carrinho-compras::before {
+    content: '';
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%);
+    border-radius: 3px;
+}
+
+.logo-carrinho {
+    float: left;
+    font-size: 15px;
+    color: white;
+}
+
+.carrinho {
+    font-size: 40px!important;
+}
+
+.numero-carrinho {
+    font-size: 12px;
+    margin-top: 23px;
+    margin-left: 55px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.barra-preta {
+    width: 100%;
+    background-color: #000000;
+    box-shadow: inset 0 -2px 0 0 #000000, 0 3px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.palavras-pretas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(119, 10, 141);
+}
+
+.palavras-pretas::before {
+    display: table;
+    line-height: 0;
+    content: "";
+    align-items: center;
+    color: rgb(119, 10, 141);
+}
+
+.separacao-palavras {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: rgb(119, 10, 141);
+}
+
+.computadores {
+    display: block;
+    color: rgb(119, 10, 141);
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+    clear: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.computadores:hover {
+    content: '';
+    height: 72%;
+    width: 128px;
+    color: rgb(240, 70, 240);
+    background: rgb(10, 10, 10);
+    border-radius: 13px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 0;
+}
+
+.hardware {
+    display: block;
+    color: rgb(119, 10, 141);
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+    clear: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.hardware:hover {
+    content: '';
+    height: 72%;
+    width: 88px;
+    color: rgb(240, 70, 240);
+    background: rgb(10, 10, 10);
+    border-radius: 13px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 0;
+}
+
+.perifericos {
+    display: inline-block;
+    color: rgb(119, 10, 141);
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+    clear: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.perifericos:hover {
+    content: '';
+    height: 72%;
+    width: 101px;
+    color: rgb(240, 70, 240);
+    background: rgb(10, 10, 10);
+    border-radius: 13px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 0;
+}
+
+.monitores {
+    display: inline-block;
+    color: rgb(119, 10, 141);
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+    clear: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.monitores:hover {
+    content: '';
+    height: 72%;
+    width: 90px;
+    color: rgb(240, 70, 240);
+    background: rgb(10, 10, 10);
+    border-radius: 13px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 0;
+}
+
+.acessorios {
+    display: inline-block;
+    color: rgb(119, 10, 141);
+    text-align: center;
+    font-family: "Source Sans Pro",sans-serif;
+    clear: none;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: unset;
+}
+
+.acessorios:hover {
+    content: '';
+    height: 72%;
+    width: 100px;
+    color: rgb(240, 70, 240);
+    background: rgb(10, 10, 10);
+    border-radius: 13px;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 0;
+}
+
+.bannerimagens {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bannerimagens:hover {
+    cursor: pointer;
+}
+
+#slider {
+    width: 1150px;
+    max-width: 1150px;
+    height: 350px;
+    max-height: 350px;
+    position: relative;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
+
+.restoabaixo {
+    position: relative;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.listacomputadores {
+    margin-bottom: 450px;
+}
+
+.palavracomputadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(119, 10, 141);
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.pc1 {
+    width: 243px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.parte2 {
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #ededed;
+    cursor: pointer;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.parte2:hover {
+    border: 1px solid rgb(119, 10, 141);
+}
+
+.parte3 {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.parte4 {
+    color: #636363;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.parte5 {
+    margin-top: 5px;
+    min-width: 140px;
+}
+
+.parte6 {
+    font-weight: bold;
+    padding-left: 37px;
+    color: #7c7c7c;
+    font-size: large;
+    line-height: 14px;
+    white-space: nowrap;
+    background: transparent url(https://www.formigari.com.br/skin/frontend/rwd/default/images/cartao.png) no-repeat left;
+}
+
+.parte7 {
+    line-height: 10px;
+    color: #7c7c7c;
+}
+
+.parte8 {
+    margin-top: 16px;
+    min-width: 140px;
+}
+
+.parte9 {
+    padding-left: 37px;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(119, 10, 141);
+    text-shadow: 0 1px 1px #c7c7c7;
+    line-height: 14px;
+    white-space: nowrap;
+    background: transparent url(https://www.formigari.com.br/skin/frontend/rwd/default/images/boleto.png) no-repeat left center;
+}
+
+.parte10 {
+    line-height: 10px;
+    color: #7c7c7c;
+}
+
+.pc2 {
+    width: 243px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.pc3 {
+    width: 243px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.pc4 {
+    width: 243px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.listakits {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.kit1 {
+    width: 243px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.kit2 {
+    width: 243px;
+    position: relative;
+    min-height: 1px;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 20px;
+}
+
+.listapromocoes {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    position: relative;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+.footer-limite {
+    margin: 0 auto;
+    clear: both;
+    max-width: 1000px;
+}
+
+.footer {
+    display: table;
+    max-width: 1000px;
+    width: 1000px;
+}
+
+.bloco-ofertas {
+    float: right;
+    max-width: 282px;
+    width: 100%;
+}
+
+.texto-bloco {
+    border-top: none;
+    padding-top: 18px;
+}
+
+strong {
+    text-transform: none;
+    font-size: medium;
+    color: rgb(119, 10, 141);
+}
+
+.escrever {
+    padding-top: 7px;
+    margin-top: 5px;
+}
+
+.caixa-texto {
+    float: left;
+    width: 65.625%;
+    padding-top: 0;
+}
+
+.texto-email {
+    width: 95%;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid rgb(119, 10, 141);
+    color: #fff;
+    padding: 4px;
+    outline: none;
+}
+
+.assinar {
+    float: left;
+    width: 34.375%;
+    margin: 0;
+}
+
+.botao-assinar {
+    width: 100%;
+    height: 25px;
+    line-height: 17px;
+    background-color: rgb(119, 10, 141);
+    border: 0px none;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+}
+
+.caixas {
+    float: left;
+}
+
+.blocos {
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 18px;
+}
+
+.espacosepara {
+    height: 10px;
+}
+
+.texto-chat {
+    display: block;
+    padding-left: 31px;
+    line-height: 29px;
+    height: 29px;
+    background: transparent url(./contatosn2.png) 0px 6px no-repeat;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.texto-chat:hover {
+    color: rgb(119, 10, 141);
+}
+
+.texto-telefone {
+    display: block;
+    padding-left: 31px;
+    line-height: 29px;
+    height: 29px;
+    background: transparent url(./contatosn2.png) 0px -35px no-repeat;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.texto-telefone:hover {
+    color: rgb(119, 10, 141);
+}
+
+.texto-whats {
+    display: block;
+    padding-left: 31px;
+    line-height: 29px;
+    height: 29px;
+    background: transparent url(./contatosn2.png) 0px -76px no-repeat;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.texto-whats:hover {
+    color: rgb(119, 10, 141);
+}
+
+.texto-email2 {
+    display: block;
+    padding-left: 31px;
+    line-height: 29px;
+    height: 29px;
+    background: transparent url(./contatosn2.png) 0px -116px no-repeat;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.texto-email2:hover {
+    color: rgb(119, 10, 141);
+}
+
+.informacao-texto {
+    font-size: 15px;
+}
+
+.palavras {
+    list-style-type: disc !important;
+    margin-left: 10px;
+}
+
+.quemsomos {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.quemsomos:hover {
+    color: rgb(119, 10, 141);
+}
+
+.como-comprar {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.como-comprar:hover {
+    color: rgb(119, 10, 141);
+}
+
+.formaspagamento {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.formaspagamento:hover {
+    color: rgb(119, 10, 141);
+}
+
+.entregas {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.entregas:hover {
+    color: rgb(119, 10, 141);
+}
+
+.garantia {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.garantia:hover {
+    color: rgb(119, 10, 141);
+}
+
+.troca-devolucoes {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.troca-devolucoes:hover {
+    color: rgb(119, 10, 141);
+}
+
+.privacidade {
+    color: #ffffff;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.privacidade:hover {
+    color: rgb(119, 10, 141);
+}
+
+.assinarbotao {
+    font-size: 15px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 600;
+}
+
+.imagem-formaspagamento {
+    height: 28px;
+    width: 229;
+    cursor: pointer;
+}
+
+.verificacao {
+    margin-left: -6px;
+}
+
+.googleseguro {
+    height: 88px;
+    width: 188px;
+    cursor: pointer;
+}
+
+.sslseguro {
+    height: 88px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.ebit {
+    height: 63px;
+    width: 131px;
+    cursor: pointer;
+}
+
+.reclame {
+    height: 50px;
+    width: 213px;
+    cursor: pointer;
+}
+
+.caixa-redes {
+    float: right;
+    width: 100%;
+    max-width: 282px;
+}
+
+.facebook {
+    margin-right: 7px;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.youtube {
+    margin-right: 7px;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.instagram {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.entreconta {
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+.iconedelogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconelogin {
+    font-size: 150px!important;
+    color: rgb(119, 10, 141);
+    cursor:default;
+}
+
+.textoseja-bemvindo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 600;
+}
+
+.textoinsira-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 600;
+}
+
+.inseriremail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#inputemail {
+    height: 20px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.entrar {
+    float: left;
+    margin-right: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.botaoentrar {
+    padding: 20px;
+    font-family: "Source Sans Pro",sans-serif;
+    background-color: rgb(119, 10, 141);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-color: #000000;
+}
+
+.botaoentrar:hover {
+    background-color: darkviolet;
+}
+
+.botaocriar {
+    padding: 20px 24px;
+    font-family: "Source Sans Pro",sans-serif;
+    background-color: rgb(119, 10, 141);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-color: #000000;
+}
+
+.botaocriar:hover {
+    background-color: darkviolet;
+}
