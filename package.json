@@ -1,0 +1,24 @@
+{
+  "name": "fury",
+  "version": "1.0.0",
+  "description": "Meu site legal",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoBrag/Fury.git"
+  },
+  "keywords": [],
+  "author": "Thiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoBrag/Fury/issues"
+  },
+  "homepage": "https://github.com/ThiagoBrag/Fury#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
